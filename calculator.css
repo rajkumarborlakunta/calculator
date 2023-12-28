@@ -1,0 +1,52 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row button {
+    width: 50px;
+    height: 40px;
+    font-size: larger;
+    margin: 2px 0px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.delete i {
+    background-color: aliceblue;
+}
+
+.input {
+    width: 204px;
+    height: 35px;
+    padding: 5px;
+    font-size: x-large;
+    text-align: right;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+.container {
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: #e09d84;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.items-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder {
+    font-style: unset;
+}
